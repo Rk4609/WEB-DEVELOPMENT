@@ -1,0 +1,35 @@
+
+h1,h3,h4,p{
+    text-align: center;
+}
+h1{
+    color: red;
+    font-family: Georgia;
+}
+
+h3{
+    color: black;
+}
+
+p{
+    line-height: 30px;
+    color: brown;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(0,255,0);
+}
+
+button{
+    color: blueviolet;
+    background-color: white;
+    
+}
+
+textarea{
+     color: black;
+}
+span{
+    text-decoration: underline;
+}

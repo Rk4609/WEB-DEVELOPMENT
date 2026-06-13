@@ -1,0 +1,104 @@
+/* div{
+    height: 100px;
+    width: 100px;
+    background-color: rgba(255, 0, 0, 0.5);
+}
+
+#opacity{
+    height: 100px;
+    width: 100px;
+    opacity: 0.5;
+} */
+
+#div3{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(19, 232, 15);
+    /* transition: ; */
+    /* transition-duration: 1s;
+    transition-delay: 1s; */
+
+    margin-top: 10px;
+    margin: 0 auto;
+    transition: margin-top 2s ease-in 0.5s;
+}
+/* Transitions */
+#div3:hover{
+    /* background-color: black;
+    border-radius: 50%; */
+    background-color: pink;
+    margin-top: 400px;
+}
+
+#div4{
+    height: 100px;
+    width: 100px;
+    margin: 24px;
+    /* margin: 0 auto; */
+
+    background-color: rgb(216, 203, 24);
+    transform: rotate(45deg);
+
+}
+/* ------------------------------------------------------------------- */
+section{
+    margin-top: 100px;
+}
+
+/* div{
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    background-color: #7aa874;
+    border: 2px solid black;
+    margin: 10px auto;
+}
+
+div:nth-of-type(2n){
+    background-color: #f7db6a;
+}
+div:nth-of-type(3n){
+    background-color: #ebb02d;
+} */
+
+/* Transform */
+#one{
+    transform: rotate(45deg);
+}
+
+/* scale */
+#two{
+    transform:scale(0.5);
+}
+/* Translatw */
+#three{
+   transform: translateX(100px);
+}
+
+#four{
+    transform: skew(30deg);
+}
+
+#five{
+    transform: rotate(30deg) translateX(150px);
+}
+
+/* #six{
+     width: 200px;
+    height: 50px;
+    text-align: center;
+    background-color: #7aa874;
+    margin: 10px auto;
+    box-shadow: 2px 2px 8px pink;
+} */
+
+/* background image property---- contain cover auto  */
+#six{
+    height: 200px;
+    width: 400px;
+        background-color: #7aa874;
+        margin: 10px auto;
+        background-image: url(css.jpg);
+        background-size: cover;   /* most uses */
+        color: white;
+}
