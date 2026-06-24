@@ -1,0 +1,15 @@
+.container{
+    height: 400px;
+    width: 80%;
+    border: 2px solid black;
+    display: flex;
+    background-color: navajowhite;
+    flex-direction: row;
+   justify-content: flex-start ;/* space-evenly center left right  */
+   flex-wrap: wrap;
+}
+
+.container div{
+    height: 100px;
+    width: 500px;
+}
